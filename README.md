@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ShopSavvy- Product Price Tracking and Alert System
 
-## Getting Started
+ShopSavvy is a versatile web application designed to help you track product prices and receive timely alerts when there are price drops or stock availability changes. Whether you're an online shopper, a deal hunter, or a data enthusiast, ShopSavvy provides powerful features for you.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Price Tracking:** Keep an eye on the price history of your favorite products.
+- **Stock Alerts:** Receive notifications when a product comes back in stock.
+- **Price Drop Alerts:** Get alerted when a product's price drops below your specified threshold.
+- **Email Notifications:** Stay updated through email notifications.
+- **Data Analysis:** Analyze price trends and historical data for smarter shopping decisions.
+- **Web Scraping:** Real-time data scraping from product websites.
+- **User-Friendly Interface:** An easy-to-navigate web application for all your tracking needs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the Repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/mrExplorist/ShopSavvy.git
+   cd ShopSavvy
+   ```
 
-## Learn More
+2. **Install Dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+    npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Set Up Environment Variables:**
+   `Create a .env file and provide the necessary environment variables, including your database connection and email configuration.`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Run the Application:**
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+PriceWise is built using the following technologies and tools:
+
+- **Frontend:**
+
+  - TypeScript
+  - Next.js 13
+  - Tailwind CSS
+  - Next/Image
+  - Axios
+  - React Hot Toast
+  - Headless UI (React)
+
+  **Backend:**
+
+  - Node.js
+  - Express.js
+  - MongoDB
+  - Mongoose
+  - Nodemailer
+  - Axios
+
+- **Web Scraping:**
+
+  - Axios
+  - Cheerio
+  - Puppeteer
+  - BrightData
+
+- **Deployment and Hosting:**
+
+  - Vercel (Frontend)
+
+## Contributing
+
+As many features can be added and developed and are being in development,
+We welcome contributions from the open-source community. Whether you're a developer, designer, or tester, your input can help improve ShopSavvy. Here's how you can contribute:
+
+- **Suggest Features:** If you have any ideas for new features, please let us know by opening an issue on GitHub.
+- **Fix Bugs:** If you want to contribute to the codebase, please open a pull request on GitHub.
+
+- **Improve UI/UX:** If you have any ideas for improving the UI/UX, please open a pull request on GitHub.
+- **Add New Features:** If you have any ideas for new features, please open a pull request on GitHub.
+
+## Here's how you can contribute:
+
+1. Fork the repository.
+2. Clone the repository to your local machine.
+3. Create a new branch for your changes. Use `git checkout -b <branch-name>`. For example, `git checkout -b feature/new-feature`.
+4. Make the necessary changes and commit those changes. Use `git add .` to add all your changes and `git commit -m "<commit-message>"` to commit those changes.
+5. Push the changes to your forked repository using `git push origin <branch-name>`.
+6. Open a pull request on GitHub.
+7. We will review the changes and merge them into the main branch of the repository.
