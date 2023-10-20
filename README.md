@@ -40,35 +40,13 @@ ShopSavvy is a versatile web application designed to help you track product pric
 
 PriceWise is built using the following technologies and tools:
 
-- **Frontend:**
-
-  - TypeScript
-  - Next.js 13
-  - Tailwind CSS
-  - Next/Image
-  - Axios
-  - React Hot Toast
-  - Headless UI (React)
-
-  **Backend:**
-
-  - Node.js
-  - Express.js
-  - MongoDB
-  - Mongoose
-  - Nodemailer
-  - Axios
-
-- **Web Scraping:**
-
-  - Axios
-  - Cheerio
-  - Puppeteer
-  - BrightData
-
-- **Deployment and Hosting:**
-
-  - Vercel (Frontend)
+- **Frontend:** React.js, Next.js 13, Tailwind CSS, Chart.js, Axios and more. (See [package.json])
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose, Nodemailer, Axios and more. (See [package.json])
+- **Database:** MongoDB Atlas
+- **Email Service:** Nodemailer
+- **Web Scraping:** Axios, Cheerio, Puppeteer, BrightData
+- **Deployment and Hosting:** Vercel (Frontend)
+- **Version Control:** Git and GitHub
 
 ## Contributing
 
