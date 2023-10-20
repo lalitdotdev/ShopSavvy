@@ -1,6 +1,6 @@
 # ShopSavvy- Product Price Tracking and Alert System
 
-ShopSavvy is a versatile web application designed to help you track product prices and receive timely alerts when there are price drops or stock availability changes. Whether you're an online shopper, a deal hunter, or a data enthusiast, ShopSavvy provides powerful features for you.
+ShopSavvy is a versatile web application designed to help you track product prices and receive timely alerts when there are price drops or stock availability changes.
 
 ## Features
 
