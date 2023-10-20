@@ -38,7 +38,7 @@ ShopSavvy is a versatile web application designed to help you track product pric
 
 ## Tech Stack
 
-PriceWise is built using the following technologies and tools:
+ShopSavvy is built using the following technologies and tools:
 
 - **Frontend:** React.js, Next.js 13, Tailwind CSS, Chart.js, Axios and more. (See [package.json])
 - **Backend:** Node.js, Express.js, MongoDB, Mongoose, Nodemailer, Axios and more. (See [package.json])
