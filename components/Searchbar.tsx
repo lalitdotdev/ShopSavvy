@@ -2,6 +2,7 @@
 
 import { scrapeAndStoreProduct } from "@/lib/actions";
 import { FormEvent, useState } from "react";
+import { redirect } from "next/navigation";
 
 const isValidProductURL = (url: string) => {
   try {
@@ -38,6 +39,7 @@ const Searchbar = () => {
 
       // Scrape the product page
       const product = await scrapeAndStoreProduct(searchPrompt);
+    
     } catch (error) {
       console.log(error);
     } finally {

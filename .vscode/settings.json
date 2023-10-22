@@ -1,3 +1,9 @@
 {
-  "cSpell.words": ["flipkart"]
+  "cSpell.words": [
+    "flipkart"
+  ],
+  "workbench.colorCustomizations": {
+    "minimap.background": "#00000000",
+    "scrollbar.shadow": "#00000000"
+  }
 }
