@@ -47,6 +47,7 @@ export async function scrapeAndStoreProduct(productUrl: string) {
     );
 
     revalidatePath(`/products/${newProduct._id}`);
+    // redirect to product page
   } catch (error: any) {
     toast.error(`Failed to create/update product: ${error.message}`);
   }

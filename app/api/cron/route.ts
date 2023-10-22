@@ -8,12 +8,11 @@ import {
 } from "@/lib/utils";
 import { connectToDB } from "@/lib/mongoose";
 
-import { scrapeProduct } from "@/lib/scraper";
 import { generateEmailBody, sendEmail } from "@/lib/nodemailer";
 import Product from "@/lib/models/product-model";
+import { scrapeProduct } from "@/lib/scraper";
 
-// set maxDuration to 10 seconds
-export const maxDuration = 10; // seconds (default: 5 seconds)
+export const maxDuration = 300; // This function can run for a maximum of 300 seconds
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
